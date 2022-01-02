@@ -1,0 +1,27 @@
+.FoodCard {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FoodCard > .Info {
+    font-size: 24px;
+    background: rgb(211, 60, 231);
+    margin: 60px;
+    padding: 55px;
+    width: 35%;
+    left: -100vw;
+    animation: slide 1s forwards;
+    position: relative;
+    overflow: hidden;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
